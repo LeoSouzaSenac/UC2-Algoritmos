@@ -15,6 +15,6 @@
 5. **Exercício de Concatenação de Strings:**
    Declare duas variáveis, `nome` e `sobrenome`, e atribua valores a elas. Em seguida, crie uma terceira variável chamada `nomeCompleto` que armazena a concatenação do nome e sobrenome. Exiba o valor de `nomeCompleto`.
 
-6. **Exercício de Troca de Valores:**
+6. **Exercício de Troca de Tipos:**
 Crie duas variáveis com os valores "50" e "25" (não esqueça das aspas!). Agora, tente fazer a soma com as duas. O que acontece?
 O que fazer para que a soma resulte em 75?
