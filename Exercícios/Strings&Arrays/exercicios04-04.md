@@ -1,3 +1,5 @@
+ATENÇÃO: Faça todos os exercícios com o uso de funções!
+
 Soma de Números Positivos: Crie um programa que imprima o resultado da soma de dois números, apenas se os dois números forem positivos.
 
 Multiplicação com Número Par: Crie um programa que imprima o resultado da multiplicação de dois números, apenas se pelo menos um dos números for par.
