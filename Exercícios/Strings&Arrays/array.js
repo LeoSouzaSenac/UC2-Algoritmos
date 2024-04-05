@@ -99,6 +99,11 @@ const numbers13 = [1, 2, 3, 4, 5];
 const index = numbers13.indexOf(3);
 console.log(index); // Saída: 2 (o índice do número 3 no array)
 
+//split(): Divide uma string em um array com várias strings, com base em um delimitador especificado. 
+const frase = "Esta é uma frase de exemplo";
+const arrayDePalavras = frase.split(" "); // Dividindo a frase em palavras com base nos espaços
+console.log(arrayDePalavras); // Saída: ["Esta", "é", "uma", "frase", "de", "exemplo"]
+
 
 
 
