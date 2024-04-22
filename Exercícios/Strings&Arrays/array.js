@@ -106,6 +106,29 @@ console.log(arrayDePalavras); // Saída: ["Esta", "é", "uma", "frase", "de", "e
 
 
 
+//Método match é um método de strings que procura uma string e retorna um array contendo as correspondências encontradas
+
+let string = "Banana!"; // Definindo uma string
+let letras_a = string.match(/a/gi); // Procurando todas as letras "a" na string
+console.log(letras_a); // Output: ["a","a","a"]
+
+
+let string2 = "A idade dele é 25."; // Definindo uma string
+let numeros = string2.match(/\d+/g); // Procurando números na string
+console.log(numeros); // Output: ["25"]
+
+// \d: Representa qualquer dígito de 0 a 9.
+// +: Indica que o padrão anterior (neste caso, \d) deve ocorrer uma ou mais vezes.
+// g: Modificador que indica uma correspondência global, ou seja, ele irá encontrar todas as ocorrências na string.
+// i: procura por todas as ocorrências na string, independentemente de ser maiúscula ou minúscula, devido ao modificador i.
+
+
+let string3 = "Olá, mundo!"; // Definindo uma string
+let vogais = string3.match(/[aeiou]/gi); // Procurando vogais na string
+console.log(vogais); // Output: ["O", "á", "u", "o"]
+
+
+
 
 
 /*
