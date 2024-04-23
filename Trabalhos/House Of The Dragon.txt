@@ -1,0 +1,29 @@
+Bem-vindos ao desafio "Operação JavaScript: House of The Dragon"!
+
+Você foi contratado como desenvolvedor para criar um sistema de gerenciamento de informações para a série "House of The Dragon". Sua tarefa é criar um programa em JavaScript que simule um banco de dados para os personagens da série e permita aos usuários interagir com essas informações através de um menu de opções.
+
+O programa deve incluir os seguintes componentes:
+
+Banco de Dados Fake:
+Você deve criar um "banco de dados" fake utilizando um array. Esse banco de dados vai armazenar informações sobre os personagens da série "House of The Dragon". Cada objeto no array representará um personagem e terá as seguintes propriedades:
+nome: o nome do personagem.
+casa: a casa à qual o personagem pertence.
+status: o status do personagem na série (por exemplo, vivo, morto, desconhecido).
+Menu de Opções:
+Você deve implementar um menu de opções que permita ao usuário escolher entre diferentes funcionalidades do sistema. O menu deve ser apresentado no terminal e permitir ao usuário selecionar as seguintes opções:
+Visualizar todos os personagens da série.
+Adicionar um novo personagem à série.
+Atualizar o status de um personagem.
+Verificar a quantidade de dragões de uma casa específica.
+Verificar o status atual dos dragões.
+Sair do programa.
+Funcionalidades:
+Visualizar todos os personagens da série: Ao selecionar essa opção, o programa deve percorrer o banco de dados e exibir no terminal as informações de todos os personagens.
+Adicionar um novo personagem à série: Ao selecionar essa opção, o programa deve solicitar ao usuário que insira o nome, casa e status do novo personagem, e então adicioná-lo ao banco de dados.
+Atualizar o status de um personagem: Ao selecionar essa opção, o programa deve solicitar ao usuário que insira o nome do personagem cujo status deseja atualizar, e então permitir que o usuário digite o novo status desse personagem.
+Verificar a quantidade de dragões de uma casa específica: Ao selecionar essa opção, o programa deve solicitar ao usuário que insira o nome da casa que deseja verificar e então exibir no terminal a quantidade de dragões que a casa possui.
+Verificar o status atual dos dragões: Ao selecionar essa opção, o programa deve exibir no terminal o status atual de todos os dragões da série.
+Sair do programa: Ao selecionar essa opção, o programa deve encerrar a execução.
+Seu desafio é implementar todas essas funcionalidades em JavaScript, utilizando laços, objetos, arrays, funções e switch para criar um sistema de gerenciamento de informações eficiente e criativo para a série "House of The Dragon".
+
+Boa sorte, e que os dragões estejam a seu favor!

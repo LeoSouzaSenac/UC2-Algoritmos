@@ -1,0 +1,23 @@
+Você está prestes a embarcar em uma aventura no mundo de Naruto, onde ninjas habilidosos treinam na Academia Ninja para se tornarem verdadeiros shinobi. Sua missão é criar um programa em JavaScript que simule a jornada de três aspirantes a ninja (Naruto, Sasuke e Sakura) na Academia Ninja. Eles devem completar uma série de desafios e provas para provar sua habilidade ninja.
+
+O programa deve seguir as etapas a seguir:
+
+Crie três objetos representando os três aspirantes a ninja: Naruto, Sasuke e Sakura. Cada objeto deve ter propriedades como "nome", "nível de chakra", "habilidades ninjas" (um array) e "missões concluídas" (um número).
+
+Crie uma função que permita aos aspirantes a ninja treinar seu chakra. Esta função deve aumentar o nível de chakra de um aspirante em um valor aleatório entre 10 e 20.
+
+Exemplo:
+const aumentoChakra = Math.floor(Math.random() * (20 - 10 + 1)) + 10;
+
+
+Crie uma função que permita aos aspirantes a ninja adicionar novas habilidades ninja ao seu arsenal. Eles devem ser capazes de adicionar habilidades ninja (strings) ao array de habilidades.
+
+Simule a conclusão de missões ninja. Crie uma função que permita aos aspirantes a ninja concluir missões com sucesso. Isso deve aumentar o número de missões concluídas em 1 e recompensar com um aumento aleatório de chakra entre 5 e 15.
+
+Exemplo:
+ const recompensaChakra = Math.floor(Math.random() * (15 - 5 + 1)) + 5;
+
+
+Exiba o progresso de cada aspirante a ninja, mostrando seu nome, nível de chakra, habilidades ninjas e missões concluídas após cada ação.
+
+Após várias ações de treinamento, adição de habilidades e conclusão de missões, determine qual dos três aspirantes a ninja se tornou o ninja mais habilidoso, com base no nível total de chakra e habilidades ninjas. Exiba o nome do vencedor.

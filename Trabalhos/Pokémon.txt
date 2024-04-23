@@ -1,0 +1,26 @@
+Enunciado: Batalha Pokémon
+
+Prepare-se para uma batalha épica entre treinadores Pokémon! Você será responsável por criar um programa em JavaScript para simular uma batalha Pokémon entre dois treinadores e suas equipes de Pokémon. Cada treinador terá uma equipe de 6 Pokémon, e eles competirão em uma batalha até que um dos treinadores seja declarado vencedor.
+
+O programa deve seguir as etapas a seguir:
+
+Banco de Dados Fake:
+Você deve criar um "banco de dados" fake utilizando um array. Esse banco de dados vai armazenar informações sobre os Pokémon. Cada objeto no array representará um Pokémon e terá as seguintes propriedades:
+nome: o nome do Pokémon.
+tipo: o tipo do Pokémon (por exemplo, "Fogo", "Água", "Elétrico").
+hp: os pontos de vida do Pokémon.
+ataque: o valor do ataque do Pokémon.
+defesa: o valor da defesa do Pokémon.
+Cadastro de Pokémon:
+Solicite aos treinadores que cadastrem 6 Pokémon para cada um. Para cada Pokémon, solicite o nome, tipo, pontos de vida, ataque e defesa.
+Batalha Pokémon:
+Simule uma batalha entre os dois treinadores e suas equipes de Pokémon.
+A batalha será conduzida em rodadas, onde cada treinador escolherá um Pokémon para lutar.
+A cada rodada, os Pokémon atacarão e defenderão com base em seus atributos de ataque e defesa.
+Reduza os pontos de vida do Pokémon adversário com base no ataque do Pokémon atacante e na defesa do Pokémon defensor.
+Continue a batalha até que todos os Pokémon de um dos treinadores sejam derrotados.
+Determinação do Vencedor:
+O treinador cujos Pokémon derrotarem todos os Pokémon adversários será declarado vencedor da batalha.
+Exibição do Vencedor:
+Exiba o nome do treinador vencedor e parabenize-o por sua vitória épica.
+Prepare-se para uma batalha emocionante e que o melhor treinador vença!

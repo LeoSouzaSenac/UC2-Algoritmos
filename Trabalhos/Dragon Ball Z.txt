@@ -1,0 +1,24 @@
+Bem-vindo ao desafio "Operação JavaScript: A Jornada dos Guerreiros Z"!
+
+Você está prestes a embarcar em uma jornada emocionante no mundo de Dragon Ball Z, onde guerreiros habilidosos treinam para proteger o universo de ameaças poderosas. Sua missão é criar um programa em JavaScript que simule a jornada de três guerreiros Z (Goku, Vegeta e Gohan) na Academia de Guerreiros Z. Eles devem completar uma série de desafios e provas para provar sua habilidade como guerreiros.
+
+O programa deve seguir as etapas a seguir:
+
+Banco de Dados Fake:
+Você deve criar um "banco de dados" fake utilizando um array. Esse banco de dados vai armazenar informações sobre os guerreiros Z. Cada objeto no array representará um guerreiro e terá as seguintes propriedades:
+nome: o nome do guerreiro.
+nivelChakra: o nível de chakra do guerreiro.
+habilidades: um array contendo as habilidades do guerreiro.
+missõesConcluidas: o número de missões concluídas pelo guerreiro.
+Funções:
+Crie três objetos representando os guerreiros Z: Goku, Vegeta e Gohan. Cada objeto deve ter as propriedades mencionadas no banco de dados fake.
+Crie uma função que permita aos guerreiros Z treinar seu chakra. Esta função deve aumentar o nível de chakra de um guerreiro em um valor aleatório entre 10 e 20.
+Crie uma função que permita aos guerreiros Z adicionar novas habilidades ao seu arsenal. Eles devem ser capazes de adicionar habilidades (strings) ao array de habilidades.
+Simule a conclusão de missões. Crie uma função que permita aos guerreiros Z concluir missões com sucesso. Isso deve aumentar o número de missões concluídas em 1 e recompensar com um aumento aleatório de chakra entre 5 e 15.
+Exibição de Progresso:
+Exiba o progresso de cada guerreiro Z, mostrando seu nome, nível de chakra, habilidades e missões concluídas após cada ação.
+Determinação do Guerreiro Mais Habilidoso:
+Após várias ações de treinamento, adição de habilidades e conclusão de missões, determine qual dos três guerreiros Z se tornou o guerreiro mais habilidoso, com base no nível total de chakra e habilidades. Exiba o nome do vencedor.
+Sua missão é implementar todas essas funcionalidades em JavaScript, utilizando laços, objetos, arrays, funções e switch para criar uma simulação envolvente da jornada dos Guerreiros Z na Academia de Guerreiros Z.
+
+Boa sorte, e que os Guerreiros Z dominem o poder do ki!

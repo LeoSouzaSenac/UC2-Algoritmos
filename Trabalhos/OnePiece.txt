@@ -1,0 +1,23 @@
+Enunciado: Grande Corrida dos Piratas em One Piece
+
+Bem-vindo à Grande Corrida dos Piratas em busca do lendário tesouro, o One Piece! Você será o capitão de uma das tripulações piratas participantes desta competição mortal. Sua missão é criar um programa em JavaScript para simular a corrida e determinar qual tripulação pirata alcançará o One Piece primeiro.
+
+O programa deve seguir as etapas a seguir:
+
+Banco de Dados Fake:
+Você deve criar um "banco de dados" fake utilizando um array. Esse banco de dados vai armazenar informações sobre as tripulações piratas. Cada objeto no array representará uma tripulação e terá as seguintes propriedades:
+nome: o nome da tripulação.
+capitao: o nome do capitão da tripulação.
+posicao: a posição atual da tripulação na corrida.
+Cadastro de Tripulações:
+Cadastre 5 tripulações piratas, solicitando o nome de cada uma por meio do prompt. Cada tripulação terá um capitão e sua equipe.
+Corrida:
+A corrida consistirá em 10 etapas, e a cada etapa, as tripulações se movem em direção ao One Piece. Utilize um loop para simular as etapas da corrida.
+A cada etapa, role um dado virtual de 6 lados para determinar quantos metros cada tripulação avança. O dado representa os ventos favoráveis e obstáculos no caminho.
+Atualização da Posição:
+Atualize a posição de cada tripulação a cada etapa e exiba a posição atual no final de cada etapa.
+Determinação do Vencedor:
+A tripulação que alcançar a posição 100 metros primeiro será a vencedora e encontrará o One Piece.
+Exibição do Vencedor:
+Exiba o nome da tripulação vencedora que encontrou o One Piece e parabenize o capitão por sua conquista lendária.
+Sua jornada começa agora! Prepare-se para a Grande Corrida dos Piratas em busca do tesouro mais cobiçado dos mares!
