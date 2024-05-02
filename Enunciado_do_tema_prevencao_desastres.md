@@ -19,8 +19,7 @@ essenciais que ajudarão as autoridades a responder adequadamente a esses incide
 ## **Objetivos**
 1. 🛠️ Desenvolver um sistema de registro de incidentes em JavaScript (como os usuários vão inserir os dados?)
 2. 📝 Permitir que os usuários cadastrem incidentes, fornecendo detalhes relevantes (que detalhes são relevantes, e em que situações?)
-3. 🛡️ Implementar funcionalidades básicas de validação dos dados inseridos pelos usuários (é importante pensar na simplicidade e na facilidade,
-4. afinal as pessoas devem poder fazer isso de forma urgente)
+3. 🛡️ Implementar funcionalidades básicas de validação dos dados inseridos pelos usuários (é importante pensar na simplicidade e na facilidade, afinal as pessoas devem poder fazer isso de forma urgente)
 5. 🖥️ Criar um menu simples que permita aos usuários interagir com o sistema de forma intuitiva (como podemos facilitar para o usuário?)
 6. 🤝 Ser criativo na hora de criar sua ideia. (você não precisa se ater apenas às ideias acima. Pense: como você poderia ajudar a sociedade a resolver este problema através de um sistema?)
 
