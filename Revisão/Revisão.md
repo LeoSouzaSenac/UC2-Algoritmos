@@ -22,7 +22,6 @@ Tópicos a Cobrir
 
 -Funções
 
-Plano de Atividade
 Introdução à Atividade:
 
 Criação dos Exercícios:
