@@ -3,14 +3,23 @@ Objetivo
 Criar e compartilhar exercícios baseados nos conceitos básicos de JavaScript, promovendo a prática e o entendimento desses conceitos através da colaboração com os colegas.
 
 Tópicos a Cobrir
+
 -Variáveis
+
 -Loops
+
 -Objetos
+
 -Arrays
+
 -Condicionais
+
 -Strings
+
 -Comparadores
+
 -Comparadores Lógicos
+
 -Funções
 
 Plano de Atividade
