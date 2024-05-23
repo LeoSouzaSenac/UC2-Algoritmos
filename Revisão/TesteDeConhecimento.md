@@ -3,18 +3,16 @@ Responda todas as questões abaixo:
 Javascript é a mesma coisa que Java.
 
 a)Verdadeiro
-
 b)Falso
 
 Como se declara uma variável em Javascript?
 
 a) const carName
-
 b) variable carName
-
 c) new carName
 
 Que operador é usado para dar valor a uma variável?
+
 a) =
 b) -
 c) *
