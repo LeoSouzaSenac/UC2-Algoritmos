@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    border: 2px solid #333;
+}
+
+canvas {
+    display: block;
+    border: 1px solid #000;
+    background-color: #333333;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: none;
+}
