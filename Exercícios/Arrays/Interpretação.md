@@ -31,14 +31,4 @@ Tente responder os exercícios dessa seção sem executar o código. Se ficar mu
     console.log('f. ', valor)
     ```
 
-2. Leia o código abaixo com atenção:
 
-    ```javascript
-    const frase = prompt("Digite uma frase")
-    
-    console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
-    ```
-
-    Qual será o valor impresso no console se a entrada do usuário for: `"Subi num ônibus em Marrocos"`?
-
----
