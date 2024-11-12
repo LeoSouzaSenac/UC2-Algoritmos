@@ -1,4 +1,3 @@
-```markdown
 # Exercícios de Interpretação de Código
 
 Tente responder os exercícios dessa seção sem executar o código. Se ficar muito difícil, pode rodar no seu computador **para analisar e pensar sobre o resultado.**
@@ -79,4 +78,4 @@ console.log(minhaFuncao(pessoa, "altura"))
 **a) O que vai ser impresso no console?**
 
 **b) Explique o valor impresso no console. Você sabe por que isso aconteceu?**
-```
+
