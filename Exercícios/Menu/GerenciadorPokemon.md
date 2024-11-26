@@ -70,7 +70,3 @@ O sistema deverá permitir as seguintes ações:
 
 ### Desafio:
 Implemente o sistema de gerenciamento de pokémons e garanta que as funções de adicionar, remover e visualizar pokémons funcionem corretamente. 
-
----
-
-Esse exercício ajudará os alunos a praticarem manipulação de arrays, interações com o usuário e organização de dados em JavaScript.
