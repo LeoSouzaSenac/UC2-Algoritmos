@@ -70,3 +70,68 @@ O sistema deverá permitir as seguintes ações:
 
 ### Desafio:
 Implemente o sistema de gerenciamento de pokémons e garanta que as funções de adicionar, remover e visualizar pokémons funcionem corretamente. 
+
+
+
+### Desafio Adicional:
+
+Quando o treinador escolher a opção **Adicionar Pokémon à mochila**, será apresentado um novo menu com a possibilidade de escolher **o tipo de Pokémon** (por exemplo: Elétrico, Fogo, Água, etc.) e, após escolher o tipo, ele deverá escolher a **geração do Pokémon** (por exemplo: Geração 1, Geração 2, etc.).
+
+#### Funcionamento:
+
+1. **Escolher o tipo de Pokémon**: O treinador seleciona um tipo de Pokémon (Elétrico, Fogo, Água, etc.).
+2. **Escolher a geração**: Depois de escolher o tipo, o treinador escolhe a geração do Pokémon (Geração 1, Geração 2, etc.).
+3. **Apresentar os Pokémons Disponíveis**: Após a escolha do tipo e geração, o sistema irá mostrar uma lista de Pokémons disponíveis que correspondem a essas seleções, e o treinador poderá escolher um para adicionar à mochila.
+
+### Exemplo de Interação:
+
+1. **Menu principal:**
+   ```text
+   1. Adicionar Pokémon à mochila
+   2. Ver Pokémons na mochila
+   3. Remover Pokémon da mochila
+   4. Sair
+   ```
+
+2. **Adicionar Pokémon à mochila** (primeiro passo):
+   ```text
+   Escolha um tipo de Pokémon:
+   1. Elétrico
+   2. Fogo
+   3. Água
+   4. Planta
+   5. Normal
+   ```
+
+3. **Escolher o tipo** (por exemplo, Elétrico):
+   ```text
+   Escolha uma geração de Pokémon:
+   1. Geração 1 (Pikachu, Raichu)
+   2. Geração 2 (Mareep, Flaaffy)
+   3. Geração 3 (Electrike, Manectric)
+   ```
+
+4. **Escolher a geração** (por exemplo, Geração 1):
+   ```text
+   Pokémons da Geração 1 - Tipo: Elétrico:
+   1. Pikachu - Nível: 5
+   2. Raichu - Nível: 10
+   ```
+
+5. **Escolher o Pokémon para adicionar**:
+   ```text
+   Escolha um Pokémon para adicionar à mochila:
+   1. Pikachu
+   2. Raichu
+   ```
+
+6. **Após adicionar o Pokémon**:
+   ```text
+   Pokémon adicionado à mochila com sucesso!
+   ```
+
+
+
+
+
+
