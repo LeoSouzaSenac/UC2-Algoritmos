@@ -1,290 +1,307 @@
-Responda todas as questões abaixo:
+# Exercícios de JavaScript
 
-Javascript é a mesma coisa que Java.
-a)Verdadeiro
-b)Falso
+## Questões de Escolha Múltipla
 
-Como se declara uma variável em Javascript?
-a) const carName
-b) variable carName
-c) new carName
+### Javascript é a mesma coisa que Java?
+- a) Verdadeiro  
+- **b) Falso**
 
-Que operador é usado para dar valor a uma variável?
-a) =
-b) -
-c) *
-d) x
+### Como se declara uma variável em Javascript?
+- **a) const carName**  
+- b) variable carName  
+- c) new carName  
 
-Diga o que a seguinte equação retorna: 10 > 9
-a) false
-b) true
-c) NaN
+### Que operador é usado para dar valor a uma variável?
+- **a) =**  
+- b) -  
+- c) *  
+- d) x  
 
-Javascript é case-sensitive (que diferencia maiúsculas de minúsculas)?
-a) Sim
-b) Não
+### Diga o que a seguinte equação retorna: `10 > 9`
+- a) false  
+- **b) true**  
+- c) NaN  
 
-Como se cria uma função em Javascript?
-a) function myFunction()
-b) function:myFunction()
-c) function = myFunction()
+### Javascript é case-sensitive (que diferencia maiúsculas de minúsculas)?
+- **a) Sim**  
+- b) Não  
 
-Como se invoca uma função chamada "myFunction"?
-a) call myFunction()
-b) function MyFunction()
-c)myFunction
+### Como se cria uma função em Javascript?
+- **a) function myFunction()**  
+- b) function:myFunction()  
+- c) function = myFunction()  
 
-Como se escreve o condicional IF em Javascript?
-a) if(i===5)
-b) if i = 5 then
-c) if i =5
-d) if i == 5 then
+### Como se invoca uma função chamada "myFunction"?
+- a) call myFunction()  
+- b) function MyFunction()  
+- **c) myFunction()**
 
-Como escrever o condicional IF para executar um código se "i" não for igual a 5?
-a) if(i <> 5)
-b) if (i != 5)
-c) if i =! 5 then
-d) if i <>5
+### Como se escreve o condicional IF em Javascript?
+- **a) if(i === 5)**  
+- b) if i = 5 then  
+- c) if i = 5  
+- d) if i == 5 then  
 
-Como um WHILE começa?
-a) while i=1 to 10
-b) while (i <= 10)
-c) while (i<= 10;i++)
+### Como escrever o condicional IF para executar um código se "i" não for igual a 5?
+- a) if(i <> 5)  
+- **b) if (i != 5)**  
+- c) if i =! 5 then  
+- d) if i <> 5  
 
-Como um LOOP FOR começa?
-a) for i=1 to 5
-b) for (i=0;i<=5)
-c) for (i<=5;i++) 
-d) for (i=0;i<=5;i++)
+### Como um WHILE começa?
+- a) while i=1 to 10  
+- **b) while (i <= 10)**  
+- c) while (i <= 10; i++)  
 
-Como se adiciona um comentário em Javascript?
-a)<!--Este é um comentário-->
-b)//Este é um comentário
-c)"Este é um comentário"
+### Como um LOOP FOR começa?
+- a) for i=1 to 5  
+- b) for (i=0; i<=5)  
+- c) for (i<=5; i++)  
+- **d) for (i=0; i<=5; i++)**
 
-Como adicionar um comentário com mais de uma linha?
-a)/*Este comentário tem
-mais de uma linha*/
-b)<!--Este comentário tem
-mais de uma linha-->
-c)"Este comentário tem
-mais de uma linha"
+### Como se adiciona um comentário em Javascript?
+- a) <!--Este é um comentário-->  
+- **b) //Este é um comentário**  
+- c) "Este é um comentário"  
 
-Qual é a maneira correta de escrever um array?
-a)const colors = ['red','green','blue']
-b)const colors = 'red','green','blue'
-c)const colors = [1:'red',2:'green',3:'blue']
-d)const colors = ['red'],['green'],['blue']
+### Como adicionar um comentário com mais de uma linha?
+- **a) /*Este comentário tem mais de uma linha*/**  
+- b) <!--Este comentário tem mais de uma linha-->  
+- c) "Este comentário tem mais de uma linha"  
 
-Usando um comando em Javascript, como você arredondaria o número 7.25?
+### Qual é a maneira correta de escrever um array?
+- **a) const colors = ['red', 'green', 'blue']**  
+- b) const colors = 'red', 'green', 'blue'  
+- c) const colors = [1: 'red', 2: 'green', 3: 'blue']  
+- d) const colors = ['red'], ['green'], ['blue']  
 
-Variáveis:
+---
 
-Qual é a maneira correta de nomear uma variável?
-a) MYNAME
-b) myname
-c) my Name
-d) variavel
-e) myName
+## Exercícios de Programação
 
-Qual o valor de uma variável que está vazia?
-a) NaN
-b) undefined
-c) ERROR
+### Variáveis
 
-Crie uma variável chamada carName e atribua o valor Maverick a ela:
+#### Crie uma variável chamada `carName` e atribua o valor `Maverick` a ela:
+```javascript
+const carName = "Maverick";
+```
 
+#### Crie uma variável chamada `x` e atribua o valor `50` a ela:
+```javascript
+const x = 50;
+```
 
+#### Exiba a soma de 5 + 10 usando duas variáveis `x` e `y`:
+```javascript
+const x = 5;
+const y = 10;
+console.log(x + y);
+```
 
-Criar uma variável chamada x e atribua o valor 50 a ela.
-
-
-Exiba a soma de 5 + 10 usando duas variáveis x e y.
-
-Complete o código criando uma variável chamada z, atribuia x + y a ela e exiba o resultado:
-
+#### Complete o código criando uma variável `z`, atribuindo `x + y` a ela e exibindo o resultado:
+```javascript
 let x = 5;
 let y = 10;
+let z = x + y;
+console.log(z);
+```
 
-Declare estas três variáveis em UMA ÚNICA LINHA com estes nomes e valores específicos:
+#### Declare estas três variáveis em uma única linha:
+```javascript
+const firstName = "John", lastName = "Doe", age = 35;
+```
 
-firstName = "John"
-lastName = "Doe"
-age = 35
+---
 
+### Operadores
 
-Operadores:
+#### Multiplique 10 por 5 e exiba o resultado:
+```javascript
+console.log(10 * 5);
+```
 
-Multiplique 10 por 5 e exiba o resultado.
+#### Exiba o resto da divisão de 15 por 9:
+```javascript
+console.log(15 % 9);
+```
 
-Exiba o resto da divisão de 15 por 9.
+#### Use o operador de atribuição correto para fazer `x` ser igual a `x + y`:
+```javascript
+x += y;
+```
 
-Use o operador de atribuição correto para fazer x ser igual a 15 (o mesmo que escrever x = x + y).
+#### Use o operador de atribuição correto para fazer `x` ser igual a `x * y`:
+```javascript
+x *= y;
+```
 
-x = 10
-y = 5
-x _ y
+---
 
-Usa o operador de atribuição correto para fazer x ser igual a 50 (o mesmo que escrever x = x * y).
+### Tipos de Dados
 
-x = 10
-y = 5
-x _ y
+#### Use comentários para descrever o tipo correto de cada variável:
+```javascript
+let length = 16; // Número
+let lastName = "Johnson"; // String
+const x = { firstName: "John", lastName: "Doe" }; // Objeto
+```
 
-Tipos de Dados:
+---
 
-Use comentários para descrever o tipo correto de cada uma das variáveis abaixo:
+### Funções
 
-let length = 16;
-let lastName = "Johnson"; 
-const x = {
-  firstName: "John",
-  lastName: "Doe"
-};
-
-Funções:
-
-Execute a função chamada myFunction:
-
+#### Execute a função chamada `myFunction`:
+```javascript
 function myFunction() {
   alert("Hello World!");
 }
+myFunction();
+```
 
-
-Complete o código, criando uma função chamada myFunction:
-
-console.log("Hello World")
-
-
-Complete o código, fazendo com que a função RETORNE a palavra "Hello":
-
+#### Complete o código, criando uma função chamada `myFunction`:
+```javascript
 function myFunction() {
-  
+  console.log("Hello World");
 }
+myFunction();
+```
 
-console.log(myFunction(),"World")
+#### Complete o código para retornar "Hello":
+```javascript
+function myFunction() {
+  return "Hello";
+}
+console.log(myFunction(), "World");
+```
 
+---
 
-Objetos:
+### Objetos
 
-Mostre a informação "John"em um console.log, extraindo essa informação do objeto:
+#### Mostre a informação "John" em um console.log:
+```javascript
+const person = { firstName: "John", lastName: "Doe" };
+console.log(person.firstName);
+```
 
-const person = {
-  firstName: "John",
-  lastName: "Doe"
-};
+#### Adicione a propriedade `country: Norway` ao objeto `person`:
+```javascript
+const person = { firstName: "John", lastName: "Doe" };
+person.country = "Norway";
+```
 
+#### Crie um objeto e exiba uma mensagem:
+```javascript
+const person = { name: "John", age: 50 };
+console.log(`${person.name} tem ${person.age} anos.`);
+```
 
-Adicione a seguinte propriedade e valor ao objeto person: country: Norway.
+---
 
-const person = {
-  firstName: "John",
-  lastName: "Doe" 
+### Strings
 
-};
-
-
-Crie um objeto chamado person com name = John e age = 50.
-Em seguida, acesse o objeto para exibir a mensagem "John tem 50 anos.".
-
-
-Strings:
-
-Complete o o código usando a propriedade correta para exibir o comprimento de txt:
-
+#### Exiba o comprimento de `txt`:
+```javascript
 let txt = "Hello World!";
-let x = _____;
+let x = txt.length;
 console.log(x);
+```
 
-Concatene as duas strings para exibir a mensagem "Hello World!":
-
+#### Concatene duas strings:
+```javascript
 let str1 = "Hello ";
 let str2 = "World!";
+console.log(str1 + str2);
+```
 
-Converta o texto para um texto EM MAIÚSCULAS:
-
+#### Converta para maiúsculas:
+```javascript
 let txt = "Hello World!";
+console.log(txt.toUpperCase());
+```
 
-Use o método correto de String para substituir a palavra "Hello" pela palavra "Welcome".
+#### Substitua "Hello" por "Welcome":
+```javascript
 let txt = "Hello World";
+console.log(txt.replace("Hello", "Welcome"));
+```
 
+---
 
-Arrays:
+### Arrays
 
-Mostre o valor "Volvo" do array "cars":
-
+#### Mostre "Volvo":
+```javascript
 const cars = ["Saab", "Volvo", "BMW"];
+console.log(cars[1]);
+```
 
-
-Mude o primeiro item de "cars" para "Ford":
-
+#### Mude o primeiro item para "Ford":
+```javascript
 const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Ford";
+```
 
-
-Mostre o número de itens que há no array usando a propriedade certa:
-
+#### Mostre o número de itens:
+```javascript
 const cars = ["Volvo", "Jeep", "Mercedes"];
+console.log(cars.length);
+```
 
-Use o método correto de Array para remover o último item do array fruits.
+#### Remova o último item:
+```javascript
 const fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+```
 
-
-Use o método correto de Array para adicionar "Kiwi" ao array fruits.
+#### Adicione "Kiwi":
+```javascript
 const fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi");
+```
 
-
-Use o método splice() para remover "Orange" e "Apple" do array fruits.
+#### Remova "Orange" e "Apple":
+```javascript
 const fruits = ["Banana", "Orange", "Apple"];
+fruits.splice(1, 2);
+```
 
+---
 
-Comparadores:
+### Condicionais
 
-Escolha o operador de comparação correto para mostrar verdadeiro quando x for maior que y.
+#### Mostre "Hello World" se `x` for maior que `y`:
+```javascript
+if (x > y) {
+  console.log("Hello World");
+}
+```
 
-x = 10;
-y = 5;
+#### Mostre "Hello World" ou "Goodbye":
+```javascript
+if (x > y) {
+  console.log("Hello World");
+} else {
+  console.log("Goodbye");
+}
+```
 
-Escolha o operador de comparação correto para alertar verdadeiro quando x for igual a y.
+---
 
-x = 10;
-y = 5;
+### Loops
 
-Escolha o operador de comparação correto para alertar verdadeiro quando x não for igual a y.
+#### Loop `for` de 0 a 9:
+```javascript
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
 
-x = 10;
-y = 5;
-
-
-Condicionais:
-
-Crie um código para mostrar "Hello World" se x for maior que y:
-
-
-Crie um código para mostrar "Hello World" se x for maior que y,e se não for, imprima "Goodbye":
-
-
-Switch:
-
-Crie uma declaração switch que irá mostrar "Olá" se fruits for "banana" e "Bem-vindo" se fruits for "maçã".
-
-Adicione uma seção que irá alertar "Nem um nem outro" se fruits não for nem "banana" nem "maçã".
-
-Loop For:
-
-Crie um loop for que conte de 0 até 9.
-
-Crie um loop for que percorra todos os itens do array:
-const fruits = ["Apple", "Banana", "Orange"];
-
-
-Loop While:
-
-Crie um loop que continua executando enquanto i for menor que 10.
-
-Crie um loop que continua executando enquanto i for menor que 10, mas incremente i com 2 a cada vez.
-
-
-
-
-
-
+#### Loop `while` com incremento de 2:
+```javascript
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i += 2;
+}
+```
